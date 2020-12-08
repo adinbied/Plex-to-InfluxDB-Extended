@@ -162,9 +162,9 @@ class plexInfluxdbCollector():
         self.send_log('Adding Request Headers', 'debug')
 
         headers = {
-            'X-Plex-Client-Identifier': 'Plex InfluxDB Collector',
-            'X-Plex-Product': 'Plex InfluxDB Collector',
-            'X-Plex-Version': '1',
+            'X-Plex-Client-Identifier': 'Plex2db InfluxDB Collector',
+            'X-Plex-Product': 'Plex2db InfluxDB Collector',
+            'X-Plex-Version': '2',
             'X-Plex-Token': self.token
         }
 
